@@ -1,0 +1,138 @@
+
+body{
+    background-color: #5633f3;
+    margin: 0%;
+    padding: 0%;
+    line-height: 1.8;
+}   
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+
+.welcome_text {
+  width: 400px;
+}
+
+.welcome_text img {
+  margin-left: 22%;
+  border-radius: 100px;
+  
+ 
+}
+
+.logo img {
+  border-radius: 100px;
+  
+ 
+}
+
+.welcome_text h4 {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 400;
+ 
+ 
+}
+
+
+.username,
+.userpoints,
+.usertime {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+}
+
+::placeholder{
+  font-size: 20px;
+}
+
+
+
+.welcome_form input,
+.welcome_form button {
+  display: block;
+  width: 100%;
+}
+
+.welcome_form input {
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 15px;
+}
+
+.welcome_form input:focus {
+  outline: none;
+}
+
+.welcome_form button {
+  padding: 15px 0;
+  border: none;
+  border-radius: 100px;
+  background-color: #fff;
+  color: #341f97;
+  font-size: 22px;
+  transition: 0.4s all;
+}
+
+.welcome_form button:hover {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  cursor: pointer;
+  background-color: #341f97;
+  color: white;
+}
+
+.main-box{
+    margin-top: 8%;
+}
+.timer{
+    float:right;
+    margin:2px 10px;
+}
+.question{
+    margin-left: 3% !important;
+    
+}
+.main-ul{
+    margin-top: 2%;
+}
+
+.btn-answer{
+ margin-top: 2%;
+ float: right;
+ margin-right: 2%;
+}
+
+.option{
+    margin-bottom: 5px !important;
+    
+    border-radius:5px;
+}
+.option:hover{
+    margin-bottom: 5px !important;
+   
+}
+.active{
+    margin-bottom: 5px !important;
+    background-color: aqua;
+    color: black;
+    border-radius:5px;
+    
+}
+
+
+.cope p{
+  color: white;
+}
